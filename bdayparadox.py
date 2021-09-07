@@ -17,7 +17,7 @@ if (k==0 or k==1):
 	print "0"
 	exit()
 a=fact(364,k-1)
-p=365**(k-1)
+p=366**(k-1)
 g=gcd(a,p)
 a=a/g
 p=p/g
